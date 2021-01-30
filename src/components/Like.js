@@ -4,10 +4,10 @@ const Like = (props) => {
 
   const [like, setLike] = useState(0)
   const [dislike, setDislike] = useState(0)
-  const [ratio, setRatio] = useState(0)
 
   const handleLike = () => {
     setLike(like + 1)
+    props.test(like + 1)
   }
 
   const handleDislike = () => {
