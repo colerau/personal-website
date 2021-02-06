@@ -17,6 +17,8 @@ const App = () => {
       <Like />
       <br />
       <QuestionForm />
+      <p>This is a sample question</p>
+      <Like />
     </div>
   );
 }
