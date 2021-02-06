@@ -3,6 +3,7 @@ import Like from './components/Like.js'
 import CommentForm from './components/CommentForm.js'
 import About from './components/About.js'
 import NavBar from './components/NavBar.js'
+import QuestionForm from './components/QuestionForm.js'
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
       <CommentForm />
       <p>This is a sample comment</p>
       <Like />
+      <br />
+      <QuestionForm />
     </div>
   );
 }

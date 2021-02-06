@@ -44,7 +44,7 @@ function CommentForm(props) {
 
   return (
     <div>
-      <br />
+      <h1>Write a comment</h1>
       <form onSubmit={handleSubmit}>
         <label>
           New Comment:
