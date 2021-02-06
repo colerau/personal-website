@@ -7,7 +7,6 @@ const Like = (props) => {
 
   const handleLike = () => {
     setLike(like + 1)
-    props.test(like + 1)
   }
 
   const handleDislike = () => {
@@ -16,11 +15,12 @@ const Like = (props) => {
 
   return (
     <div>
+      <button onClick={handleLike}>Like</button>
+      <button onClick={handleDislike}>Dislike</button>
       <p>Likes: {like}</p>
       <p>Dislikes: {dislike}</p>
       <p>Like/Dislike Ratio: {like / dislike}</p>
-      <button onClick={handleLike}>Like</button>
-      <button onClick={handleDislike}>Dislike</button>
+
 
     </div>
   )
